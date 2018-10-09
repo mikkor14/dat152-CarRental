@@ -1,4 +1,4 @@
-*.idea
-*.project
+**.idea**
+**.project**
 *.classpath
 *.buildpath
