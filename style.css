@@ -1,0 +1,18 @@
+
+body {
+background-color: black;
+color: white;
+
+}
+h1 {
+  text-align: center;
+}
+.center {
+text-align: center;
+}
+.white-text {
+  color: white;
+}
+.yellow-background {
+  background-color: yellow;
+}
