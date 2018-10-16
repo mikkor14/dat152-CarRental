@@ -18,17 +18,80 @@ body, html {
   width: 30%;
 }
 
-.body {
+.content {
+  background: #212121;
+  font-size: 16px;
+  color: #ffffff;
+  word-wrap: break-word !important;
+  font-family: "Verdana";
   border: 3px solid black;
   width: 75%;
   height: 120%;
   margin: 0 auto;
 }
-.body .body-header {
+.content .content-navbar {
+  color: white;
+  background-color: #5A1807;
+  display: flex;
+  align-items: center;
   border: 2px solid red;
-  height: 10%;
+  height: 8%;
 }
-.body .body-wrapper {
+.content .content-navbar .navbar-menu {
+  display: block;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li {
+  display: block;
+  height: 100%;
+  list-style: none;
+  align-items: center;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li ul {
+  list-style: none;
+  display: none;
+  padding: 0;
+  position: absolute;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li ul li {
+  height: 10vh;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li:hover, .content .content-navbar .navbar-menu .navbar-menu-items li:focus {
+  background-color: orange;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items li:hover > ul, .content .content-navbar .navbar-menu .navbar-menu-items li:focus > ul {
+  background-color: #5A1807;
+  display: flex;
+}
+.content .content-navbar .navbar-menu .navbar-menu-items button {
+  background: transparent;
+}
+.content .content-wrapper {
   border: 2px solid blue;
   height: 90%;
   width: 90%;
@@ -52,4 +115,3 @@ body, html {
 }
 
 /*# sourceMappingURL=style.css.map */
-

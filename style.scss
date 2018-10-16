@@ -7,41 +7,105 @@ body,html{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   height: 11%;
 
-
-  .logo{
+  .logo {
     border: 2px solid deeppink;
-
     width: 30%;
   }
 
-  .login{
+  .login {
     border: 2px solid orange;
-
     width: 30%;
   }
-
-
 }
 
-.body {
+.content {
+  background: #212121;
+	font-size: 16px;
+	color: #ffffff;
+	word-wrap: break-word !important;
+	font-family: 'Verdana';
   border: 3px solid black;
-
   width: 75%;
   height: 120%;
-
   margin: 0 auto;
 
-  .body-header{
-
+  .content-navbar {
+    color: white;
+    background-color: #5A1807;
+    display: flex;
+    align-items: center;
     border: 2px solid red;
-    height: 10%;
+    height: 8%;
+
+    .navbar-menu {
+      display: block;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+
+      .navbar-menu-items {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        li {
+          display: block;
+          height: 100%;
+          list-style: none;
+          align-items: center;
+
+          div {
+            display: flex;
+            align-items: center;
+            height: 100%;
+          }
+
+          a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration: none;
+            color: white;
+          }
+
+          ul {
+            list-style: none;
+            display: none;
+            padding: 0;
+            position: absolute;
+
+            li {
+              height: 10vh;
+            }
+          }
+
+          &:hover, &:focus {
+            background-color: orange;
+          }
+
+          &:hover > ul, &:focus > ul {
+            background-color: #5A1807;
+            display: flex;
+          }
+        }
+
+        button {
+          background: transparent;
+        }
+      }
+    }
 
   }
 
-  .body-wrapper{
+  .content-wrapper{
 
     border: 2px solid blue;
     height: 90%;
