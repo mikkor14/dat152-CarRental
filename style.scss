@@ -1,58 +1,60 @@
 body,html{
+  background-color: #292F36;
   height: 100%;
 }
 
 .header {
-  border: 3px solid red;
+  // border: 3px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 11%;
 
   .logo {
-    border: 2px solid deeppink;
+    // border: 2px solid deeppink;
     width: 30%;
   }
 
   .login {
-    border: 2px solid orange;
+    // border: 2px solid orange;
     width: 30%;
   }
 }
 
 .content {
-  background: #212121;
+  background-color: #292F36;
 	font-size: 16px;
 	color: #ffffff;
 	word-wrap: break-word !important;
 	font-family: 'Verdana';
-  border: 3px solid black;
+  // border: 3px solid black;
   width: 75%;
   height: 120%;
   margin: 0 auto;
 
   .content-navbar {
+    width: fit-content;
     color: white;
-    background-color: #5A1807;
+    background-color: #05668D;
     display: flex;
     align-items: center;
-    border: 2px solid red;
+    // border: 2px solid red;
     height: 8%;
 
     .navbar-menu {
       display: block;
       align-items: center;
       height: 100%;
-      width: 100%;
+      // width: 100%;
 
       .navbar-menu-items {
         margin: 0;
         padding: 0;
-        width: 100%;
+        // width: 100%;
         height: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
 
         li {
           display: block;
@@ -66,7 +68,7 @@ body,html{
             height: 100%;
           }
 
-          a {
+          > a {
             display: flex;
             align-items: center;
             height: 100%;
@@ -78,7 +80,8 @@ body,html{
 
           ul {
             list-style: none;
-            display: none;
+            // display: none;
+            visibility: hidden;
             padding: 0;
             position: absolute;
 
@@ -87,13 +90,14 @@ body,html{
             }
           }
 
-          &:hover, &:focus {
-            background-color: orange;
+          &:hover, &:focus, &:focus-within {
+            background-color: #58A4B0;
           }
 
-          &:hover > ul, &:focus > ul {
-            background-color: #5A1807;
-            display: flex;
+          &:hover ul, &:focus ul, &:focus-within ul {
+            background-color: #05668D;
+            // display: flex;
+            visibility: visible;
           }
         }
 
@@ -107,7 +111,7 @@ body,html{
 
   .content-wrapper{
 
-    border: 2px solid blue;
+    // border: 2px solid blue;
     height: 90%;
     width: 90%;
     margin: 0 auto;
@@ -116,7 +120,7 @@ body,html{
 }
 
 .footer {
-  border: 3px solid blue;
+  // border: 3px solid blue;
 
   display: flex;
   flex-direction: row;
@@ -125,13 +129,13 @@ body,html{
   height: 15%;
 
   .contact {
-    border: 2px solid lightseagreen;
+    // border: 2px solid lightseagreen;
 
     width: 50%;
   }
 
   .social {
-    border: 2px solid yellow;
+    // border: 2px solid yellow;
 
     width: 50%;
   }
