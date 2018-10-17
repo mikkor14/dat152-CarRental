@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+}
+
+body a:link {
+    text-decoration: none;
+	color: white;
+}
+body a:visited {
+    text-decoration: none;
+	color: white;
+}
+body a:hover {
+    text-decoration: none;
+	color: white;
+}
+body: a:active {
+    text-decoration: none;
+	color: white;
+}
+
+
+.footer {
+  border-top: 3px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  background-color: #2E2E2E;
+  color: white;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer h1, p {
+	margin: 4px;
+}
+
+.footer div {
+	width: 30%;	
+}
+
+.footer .contact {
+}
+.footer .social {
+}

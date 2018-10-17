@@ -35,21 +35,6 @@ body, html {
   margin: 0 auto;
 }
 
-.footer {
-  border: 3px solid blue;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 15%;
-}
-.footer .contact {
-  border: 2px solid lightseagreen;
-  width: 50%;
-}
-.footer .social {
-  border: 2px solid yellow;
-  width: 50%;
-}
 
 /*# sourceMappingURL=style.css.map */
 
