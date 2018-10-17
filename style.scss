@@ -50,26 +50,3 @@ body,html{
   }
 
 }
-
-.footer {
-  border: 3px solid blue;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  height: 15%;
-
-  .contact {
-    border: 2px solid lightseagreen;
-
-    width: 50%;
-  }
-
-  .social {
-    border: 2px solid yellow;
-
-    width: 50%;
-  }
-
-}
